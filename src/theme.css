@@ -1,0 +1,38 @@
+/* Theme — Forest */
+:root,
+.theme-forest {
+  --primary: #34d399ec; /* emerald-400 */
+  --primary-dark: #059669; /* emerald-700 */
+  --secondary: #60a5fa; /* blue-400 */
+  --bg-dark: #0d1117; /* github-darkish */
+  --bg-card: #161b22; /* deep slate */
+  --text-primary: #e6edf3; /* soft white */
+  --text-secondary: #c9d1d9; /* cool gray */
+  --text-muted: #8b949e; /* muted gray */
+  --border: #30363d; /* slate border */
+  --shadow: rgba(1, 4, 9, 0.6);
+
+  /* Derived tokens */
+  --primary-grad: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  --glass: rgba(255, 255, 255, 0.05);
+  --glass-strong: rgba(255, 255, 255, 0.10);
+
+  /* status tones */
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+}
+
+/* Focus ring for keyboard accessibility */
+:where(button, a, input, select, textarea):focus-visible {
+  outline: 2px solid var(--secondary);
+  outline-offset: 2px;
+}
+
+/* Optional body baseline */
+body {
+  background: var(--bg-dark);
+  color: var(--text-primary);
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
