@@ -1,4 +1,4 @@
-# TicketFlow - built with React
+# ResolveHub - built with React
 
 A modern, responsive ticket management system built with React.
 
@@ -25,7 +25,7 @@ A modern, responsive ticket management system built with React.
 1. Clone/download this folder
 2. Navigate to the project directory:
 ```bash
-   cd ticketflow-react
+   cd resolvehub-react
 ```
 3. Install dependencies:
 ```bash
@@ -52,7 +52,7 @@ The build folder will contain the production-ready files.
 
 ## Demo Credentials
 
-- **Email:** demo@ticketflow.com
+- **Email:** demo@resolvehub.com
 - **Password:** demo123
 
 Or create a new account via the signup page.
@@ -117,7 +117,7 @@ vercel
 ### GitHub Pages
 Add to package.json:
 ```json
-"homepage": "https://yourusername.github.io/ticketflow-react"
+"homepage": "https://yourusername.github.io/resolvehub-react"
 ```
 
 Install gh-pages:

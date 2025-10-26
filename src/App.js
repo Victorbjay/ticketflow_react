@@ -124,7 +124,7 @@
 //             WebkitTextFillColor: 'transparent',
 //             backgroundClip: 'text'
 //           }}>
-//             TicketFlow
+//             ResolveHub
 //           </div>
 //           <button
 //             onClick={() => onNavigate('login')}
@@ -443,7 +443,7 @@
 //             WebkitTextFillColor: 'transparent',
 //             backgroundClip: 'text'
 //           }}>
-//             TicketFlow
+//             ResolveHub
 //           </div>
 //           <p style={{ color: '#64748b', marginBottom: '1.5rem' }}>
 //             Built with passion for Frontend Wizards Stage 2
@@ -456,7 +456,7 @@
 //             color: '#94a3b8',
 //             fontSize: '0.875rem'
 //           }}>
-//             <span>© 2025 TicketFlow</span>
+//             <span>© 2025 ResolveHub</span>
 //             <span>•</span>
 //             <span>All Rights Reserved</span>
 //           </div>
@@ -619,7 +619,7 @@
 //               WebkitTextFillColor: 'transparent',
 //               backgroundClip: 'text'
 //             }}>
-//               TicketFlow
+//               ResolveHub
 //             </div>
 //             <h2 style={{ fontSize: '1.5rem', fontWeight: 600, color: '#f1f5f9', marginBottom: '0.5rem' }}>
 //               {isLogin ? 'Welcome Back' : 'Create Account'}
@@ -750,7 +750,7 @@
 //                 Demo Credentials:
 //               </p>
 //               <p style={{ fontSize: '0.75rem', color: '#94a3b8', margin: '0.25rem 0' }}>
-//                 Email: demo@ticketflow.com
+//                 Email: demo@ResolveHub.com
 //               </p>
 //               <p style={{ fontSize: '0.75rem', color: '#94a3b8', margin: '0.25rem 0' }}>
 //                 Password: demo123
@@ -823,7 +823,7 @@
 //             WebkitTextFillColor: 'transparent',
 //             backgroundClip: 'text'
 //           }}>
-//             TicketFlow
+//             ResolveHub
 //           </div>
 //           <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
 //             <span style={{ color: '#94a3b8', fontSize: '0.875rem' }}>{user.email}</span>
@@ -954,7 +954,7 @@
 //           color: '#64748b',
 //           fontSize: '0.875rem'
 //         }}>
-//           © 2025 TicketFlow • Built for Frontend Wizards Stage 2
+//           © 2025 ResolveHub • Built for Frontend Wizards Stage 2
 //         </div>
 //       </footer>
 //     </div>
@@ -1145,7 +1145,7 @@
 //               }}
 //               onClick={() => onNavigate('dashboard')}
 //             >
-//               TicketFlow
+//               ResolveHub
 //             </div>
 //             <button
 //               onClick={() => onNavigate('dashboard')}
@@ -1564,7 +1564,7 @@
 //           color: '#64748b',
 //           fontSize: '0.875rem'
 //         }}>
-//           © 2025 TicketFlow • Built for Frontend Wizards Stage 2
+//           © 2025 ResolveHub • Built for Frontend Wizards Stage 2
 //         </div>
 //       </footer>
 //     </div>
@@ -1752,7 +1752,7 @@ const LandingPage = ({ onNavigate }) => {
             WebkitTextFillColor: 'transparent',
             backgroundClip: 'text'
           }}>
-            TicketFlow
+            ResolveHub
           </div>
           <button
             onClick={() => onNavigate('login')}
@@ -2058,7 +2058,7 @@ const LandingPage = ({ onNavigate }) => {
             WebkitTextFillColor: 'transparent',
             backgroundClip: 'text'
           }}>
-            TicketFlow
+            ResolveHub
           </div>
         </div>
       </footer>
@@ -2219,7 +2219,7 @@ const AuthPage = ({ isLogin, onNavigate, onAuth }) => {
               WebkitTextFillColor: 'transparent',
               backgroundClip: 'text'
             }}>
-              TicketFlow
+              ResolveHub
             </div>
             <h2 id="modal-title" style={{ fontSize: '1.5rem', fontWeight: 600, color: 'var(--text-primary)', marginBottom: '0.5rem' }}>
               {isLogin ? 'Welcome Back' : 'Create Account'}
@@ -2350,7 +2350,7 @@ const AuthPage = ({ isLogin, onNavigate, onAuth }) => {
                 Demo Credentials:
               </p>
               <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', margin: '0.25rem 0' }}>
-                Email: demo@ticketflow.com
+                Email: demo@ResolveHub.com
               </p>
               <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', margin: '0.25rem 0' }}>
                 Password: demo123
@@ -2423,7 +2423,7 @@ const Dashboard = ({ onNavigate, onLogout }) => {
             WebkitTextFillColor: 'transparent',
             backgroundClip: 'text'
           }}>
-            TicketFlow
+            ResolveHub
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
             <span style={{ color: 'var(--text-secondary)', fontSize: '0.875rem' }}>{user.email}</span>
@@ -2553,7 +2553,7 @@ const Dashboard = ({ onNavigate, onLogout }) => {
           color: 'var(--text-muted)',
           fontSize: '0.875rem'
         }}>
-          © 2025 TicketFlow • Built for Frontend Wizards Stage 2
+          © 2025 ResolveHub • Built for Frontend Wizards Stage 2
         </div>
       </footer>
     </div>
@@ -2781,7 +2781,7 @@ const TicketManagement = ({ onNavigate, onLogout }) => {
               }}
               onClick={() => onNavigate('dashboard')}
             >
-              TicketFlow
+              ResolveHub
             </div>
             <button
               onClick={() => onNavigate('dashboard')}
@@ -3206,7 +3206,7 @@ const TicketManagement = ({ onNavigate, onLogout }) => {
           color: 'var(--text-muted)',
           fontSize: '0.875rem'
         }}>
-          © 2025 TicketFlow • Built for Frontend Wizards Stage 2
+          © 2025 ResolveHub • Built for Frontend Wizards Stage 2
         </div>
       </footer>
     </div>
