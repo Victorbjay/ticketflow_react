@@ -206,7 +206,7 @@
 //               WebkitTextFillColor: 'transparent',
 //               backgroundClip: 'text'
 //             }}>
-//               Manage Tickets Like a Pro
+//               Resolve issues faster with ResolveHub
 //             </h1>
 
 //             <p style={{
@@ -215,8 +215,8 @@
 //               marginBottom: '3rem',
 //               lineHeight: 1.6
 //             }}>
-//               Streamline your workflow with our powerful ticket management system.
-//               Track, organize, and resolve issues faster than ever before.
+//               Track, prioritize, and resolve tickets quickly.
+//               Built for teams who need a clear, efficient ticket workflow.
 //             </p>
 
 //             <div style={{
@@ -248,7 +248,7 @@
 //                   e.currentTarget.style.boxShadow = '0 8px 24px rgba(99, 102, 241, 0.4)';
 //                 }}
 //               >
-//                 Get Started Free
+//                 Start managing tickets
 //               </button>
 
 //               <button
@@ -306,7 +306,7 @@
 //             WebkitTextFillColor: 'transparent',
 //             backgroundClip: 'text'
 //           }}>
-//             Everything You Need
+//             Ticket management, simplified
 //           </h2>
 
 //           <div style={{
@@ -315,9 +315,9 @@
 //             gap: '2rem'
 //           }}>
 //             {[
-//               { icon: '🎯', title: 'Smart Organization', description: 'Organize tickets by status, priority, and category with intelligent tagging' },
-//               { icon: '⚡', title: 'Lightning Fast', description: 'Built for speed. Create, update, and manage tickets in milliseconds' },
-//               { icon: '🔒', title: 'Secure & Private', description: 'Your data is protected with enterprise-grade security standards' }
+//               { icon: '🎯', title: 'Ticket Organization', description: 'Group and filter tickets by status, priority, and category' },
+//               { icon: '⚡', title: 'Fast Actions', description: 'Create, update, and resolve tickets with minimal clicks' },
+//               { icon: '🔒', title: 'Secure by Design', description: 'Keep ticket data private and auditable' }
 //             ].map((feature, index) => (
 //               <div
 //                 key={index}
@@ -388,7 +388,7 @@
 //             WebkitTextFillColor: 'transparent',
 //             backgroundClip: 'text'
 //           }}>
-//             Ready to Transform Your Workflow?
+//             Ready to resolve more tickets?
 //           </h2>
 //           <p style={{
 //             fontSize: '1.25rem',
@@ -750,7 +750,7 @@
 //                 Demo Credentials:
 //               </p>
 //               <p style={{ fontSize: '0.75rem', color: '#94a3b8', margin: '0.25rem 0' }}>
-//                 Email: demo@ResolveHub.com
+//                 Email: demo@resolvehub.com
 //               </p>
 //               <p style={{ fontSize: '0.75rem', color: '#94a3b8', margin: '0.25rem 0' }}>
 //                 Password: demo123
@@ -954,7 +954,7 @@
 //           color: '#64748b',
 //           fontSize: '0.875rem'
 //         }}>
-//           © 2025 ResolveHub • Built for Frontend Wizards Stage 2
+//           © 2025 ResolveHub — Ticket management demo
 //         </div>
 //       </footer>
 //     </div>
@@ -1564,7 +1564,7 @@
 //           color: '#64748b',
 //           fontSize: '0.875rem'
 //         }}>
-//           © 2025 ResolveHub • Built for Frontend Wizards Stage 2
+//           © 2025 ResolveHub — Ticket management demo
 //         </div>
 //       </footer>
 //     </div>
@@ -1831,7 +1831,7 @@ const LandingPage = ({ onNavigate }) => {
               lineHeight: 1.1,
               color: 'var(--text-primary)'
             }}>
-              Manage Tickets Like a Pro
+              Resolve issues faster with ResolveHub
             </h1>
 
             <p style={{
@@ -1840,8 +1840,8 @@ const LandingPage = ({ onNavigate }) => {
               marginBottom: '3rem',
               lineHeight: 1.6
             }}>
-              Streamline your workflow with our powerful ticket management system.
-              Track, organize, and resolve issues faster than ever before.
+              Track, prioritize, and resolve tickets quickly.
+              Built for teams who need a clear, efficient ticket workflow.
             </p>
 
             <div style={{
@@ -1873,7 +1873,7 @@ const LandingPage = ({ onNavigate }) => {
                   e.currentTarget.style.boxShadow = '0 8px 24px var(--shadow)';
                 }}
               >
-                Get Started Free
+                Start managing tickets
               </button>
 
               <button
@@ -1924,7 +1924,7 @@ const LandingPage = ({ onNavigate }) => {
             marginBottom: '4rem',
             color: 'var(--text-primary)'
           }}>
-            Everything You Need
+            Ticket management, simplified
           </h2>
 
           <div style={{
@@ -1933,9 +1933,9 @@ const LandingPage = ({ onNavigate }) => {
             gap: '2rem'
           }}>
             {[
-              { icon: '🎯', title: 'Smart Organization', description: 'Organize tickets by status, priority, and category with intelligent tagging' },
-              { icon: '⚡', title: 'Lightning Fast', description: 'Built for speed. Create, update, and manage tickets in milliseconds' },
-              { icon: '🔒', title: 'Secure & Private', description: 'Your data is protected with enterprise-grade security standards' }
+              { icon: '🎯', title: 'Ticket Organization', description: 'Group and filter tickets by status, priority, and category' },
+              { icon: '⚡', title: 'Fast Actions', description: 'Create, update, and resolve tickets with minimal clicks' },
+              { icon: '🔒', title: 'Secure by Design', description: 'Keep ticket data private and auditable' }
             ].map((feature, index) => (
               <div
                 key={index}
@@ -2002,8 +2002,8 @@ const LandingPage = ({ onNavigate }) => {
             fontWeight: 700,
             marginBottom: '1.5rem',
             color: 'var(--text-primary)'
-          }}>
-            Ready to Transform Your Workflow?
+            }}>
+            Ready to resolve more tickets?
           </h2>
           <p style={{
             fontSize: '1.25rem',
@@ -2012,7 +2012,7 @@ const LandingPage = ({ onNavigate }) => {
             maxWidth: '600px',
             margin: '0 auto 2.5rem'
           }}>
-            Join thousands of teams already managing their tickets efficiently
+            Start managing tickets with a focused workflow — sign in or create an account to begin.
           </p>
           <button
             onClick={() => onNavigate('signup')}
@@ -2350,7 +2350,7 @@ const AuthPage = ({ isLogin, onNavigate, onAuth }) => {
                 Demo Credentials:
               </p>
               <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', margin: '0.25rem 0' }}>
-                Email: demo@ResolveHub.com
+                Email: demo@resolvehub.com
               </p>
               <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', margin: '0.25rem 0' }}>
                 Password: demo123
@@ -2553,7 +2553,7 @@ const Dashboard = ({ onNavigate, onLogout }) => {
           color: 'var(--text-muted)',
           fontSize: '0.875rem'
         }}>
-          © 2025 ResolveHub • Built for Frontend Wizards Stage 2
+          © 2025 ResolveHub — Ticket management demo
         </div>
       </footer>
     </div>
@@ -3206,7 +3206,7 @@ const TicketManagement = ({ onNavigate, onLogout }) => {
           color: 'var(--text-muted)',
           fontSize: '0.875rem'
         }}>
-          © 2025 ResolveHub • Built for Frontend Wizards Stage 2
+          © 2025 ResolveHub — Ticket management demo
         </div>
       </footer>
     </div>
