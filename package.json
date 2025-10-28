@@ -1,8 +1,7 @@
 {
   "name": "resolvehub-react",
   "version": "1.0.0",
-  "description": "ResolveHub — Ticket management web app",
-  "homepage": "https://yourusername.github.io/resolvehub-react",
+  "description": "Ticket Management System - React Version",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
